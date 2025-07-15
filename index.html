@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zynetic Software</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-950 text-gray-100">
+  <!-- Header -->
+  <header class="flex items-center justify-between px-6 py-4 shadow-md bg-gray-900">
+    <div class="flex items-center gap-3">
+      <div class="w-48">
+        <img src="assets/img/logo-transparent.png" alt="">
+      </div>
+    </div>
+    <nav class="space-x-6 hidden md:flex">
+      <a href="#servicos" class="hover:text-gray-400">Serviços</a>
+      <!-- <a href="#sobre" class="hover:text-gray-400">Sobre</a> -->
+      <a href="#portfolio" class="hover:text-gray-400">Portfólio</a>
+      <a href="#contato" class="hover:text-gray-400">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-24 px-6 bg-gradient-to-b from-gray-900 to-gray-800">
+    <h2 class="text-4xl font-bold mb-4">Soluções inteligentes para um mundo conectado.</h2>
+    <p class="text-lg mb-8 text-gray-400">Desenvolvimento de sites e soluções tecnológicas sob medida.</p>
+    <a href="#contato" class="inline-block bg-gray-700 hover:bg-gray-600 text-white font-medium px-6 py-3 rounded-xl transition">Solicitar Orçamento</a>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-20 px-6">
+    <h3 class="text-3xl font-semibold mb-10 text-center">Serviços</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+      <div class="flex-col justify-items-center">
+        <img class="w-24 mb-2" src="assets/img/sites-profissionais.png" alt="">
+        <h4 class="text-xl font-bold mb-2">Sites Profissionais</h4>
+        <p class="text-gray-400">Criação de sites responsivos e modernos com foco em performance.</p>
+      </div>
+      <div class="flex-col justify-items-center">
+        <img class="w-24 mb-2" src="assets/img/sistemas.png" alt="">
+        <h4 class="text-xl font-bold mb-2">Sistemas Web</h4>
+        <p class="text-gray-400">Plataformas personalizadas para sua necessidade com tecnologia de ponta.</p>
+      </div>
+      <div class="flex-col justify-items-center">
+        <img class="w-24 mb-2" src="assets/img/consultoria.png" alt="">
+        <h4 class="text-xl font-bold mb-2">Consultoria e Automção</h4>
+        <p class="text-gray-400">Automatize tarefas e otimize processos com soluções inteligentes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-20 px-6 bg-gray-900" hidden>
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-6">Sobre a Zynetic</h3>
+      <p class="text-gray-400 text-lg">Somos uma empresa focada em criar soluções digitais com alto padrão de qualidade e sofisticação. Combinamos design minimalista, tecnologia de ponta e atendimento personalizado para entregar resultados de verdade.</p>
+    </div>
+  </section>
+
+  <!-- Portfólio -->
+  <section id="portfolio" class="py-20 px-6 ">
+    <h3 class="text-3xl font-semibold mb-10 text-center">Portfólio</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Cards de projetos -->
+      <div class="bg-gray-800 p-4 rounded-xl shadow hover:shadow-lg transition">
+        <div class="h-48 bg-gray-200 rounded mb-4 justify-items-center ">
+          <img class="h-48" src="assets/img/fibecycle.png" alt="">
+        </div>
+        <h4 class="font-bold mb-1 text-2xl">FibeCycle</h4>
+        <p class="text-gray-400 text-sm mb-2">Página para apresentar a empresa, com informações sobre o projeto, equipe e contato.</p>
+        <p><a href="https://fibecycle.com/" target="_blank">VER PÁGINA</a></p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-xl shadow hover:shadow-lg transition">
+        <div class="h-48 bg-gray-200 rounded mb-4 justify-items-center ">
+          <img class="h-48" src="assets/img/alexandre.jpeg" alt="">
+        </div>
+        <h4 class="font-bold mb-1">Alexandre Souza</h4>
+        <p class="text-gray-400 text-sm mb-2">Land Page de apresentação do psicólogo Alex Souza. Utilizada para captar novos pacientes.</p>
+        <p><a href="https://psialexsouza.com/" target="_blank">VER PÁGINA</a></p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-xl shadow hover:shadow-lg transition">
+        <div class="h-48 bg-gray-200 rounded mb-4 justify-items-center ">
+          <img class="h-48" src="assets/img/rayra.jpg" alt="">
+        </div>
+        <h4 class="font-bold mb-1">Black Friday: Dra Rayra Pureza</h4>
+        <p class="text-gray-400 text-sm mb-2">Chamada para a oferta de Black Friday.</p>
+        <p><a href="https://emergenciascardiologicas.com.br/blackfriday" target="_blank">VER PÁGINA</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-20 px-6 bg-gray-900">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Pronto para dar o próximo passo?</h3>
+    <div class="max-w-xl mx-auto">
+      <form class="space-y-4">
+        <button type="submit" class="bg-gray-700 hover:bg-gray-600 text-white font-medium px-6 py-3 rounded-xl transition w-full">FALE COM NOSSA EQUIPE</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="text-center py-6 text-gray-500 text-sm bg-gray-950 border-t border-gray-800">
+    &copy; 2025 Zynetic Software. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
